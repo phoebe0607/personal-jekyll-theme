@@ -3,7 +3,6 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-# url: "https://phoebe0607.github.io"
 url: "http://www.phoebewux.me"
 
 # If you're hosting your site at a Project repository on GitHub pages
@@ -30,10 +29,10 @@ google-tracking-id: ""
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Phoebe Wu"
+title: " Phoebe Wu "
+description: "Programmer by day, dreamer by night"
+keywords: "coding, photos, videos, music, movie, travel"
 favicon: "/img/favicon.ico"
 
 ################
@@ -56,10 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Talk is cheap, show me the code"
+  - text: "Once a longhorn, always a longhorn.. Hook'em!"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/Phoebe.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
