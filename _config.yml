@@ -54,7 +54,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Talk is cheap, show me the code"
   - text: "Once a longhorn, always a longhorn.. Hook'em!"
 
-me-img: "/img/Phoebe.jpg"
+me-img: "../img/Phoebe.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -129,16 +129,16 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/2019.JPG"
     date: "September 2017 - Today"
-    description: "MSCS at Northeastern U / JOB HUNTING!!!"
+    description: "MSCS at Northeastern U. JOB HUNTING!!!"
   - image: "/img/timeline/2017.JPG"
     date: "August 2016 - June 2017"
-    description: "Apple\nFirst full-time job in the States. That's new.\nFifth year in Texas! Getting bored.."
+    description: "Apple. First full-time job in the States. Fifth year in Texas."
   - image: "/img/timeline/2016.JPG"
     date: "August 2012 - May 2016"
-    description: "University of Texas at Austin\nStarted coding. That's not easy."
+    description: "University of Texas at Austin. Started coding."
   - image: "/img/timeline/2012.JPG"
     date: "June 1995 - August 2012"
-    description: "Birth + schools in China\nRaised as a meat-lover."
+    description: "Birth + schools in China. Raised as a meat-lover."
 
 # First image of the Timeline
 
@@ -167,9 +167,9 @@ author_blurb_image: "/img/Phoebe.jpg"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/xingrong.wu"
   - title: "linkedin"
-    url: "https://linkedin.com/"
+    url: "https://linkedin.com/xingrongwu"
   - title: "github"
     url: "https://github.com/phoebe0607"
   - title: "instagram"
