@@ -75,7 +75,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   {% endif %}
 
-  {% if page.section-type == "post" or page.section-type == "project" or page.section-type == "index" or page.section-type == "tag" %}
+  {% if page.section-type == "post" or page.section-type == "blog" or page.section-type == "index" or page.section-type == "tag" %}
 
     <!-- Comments Counter Start -->
 
@@ -201,9 +201,9 @@ function addTohistory() {
 
   {% endif %}
 
-  {% if page.section-type == "project" %}
+  {% if page.section-type == "blog" %}
 
-    <!-- Project Gesture Navigation Start -->
+    <!-- Blog Gesture Navigation Start -->
 
     <script type="text/javascript" src="{{site.baseurl}}/js/hammer.min.js"></script>
 
@@ -228,27 +228,27 @@ function addTohistory() {
       });
     </script>
 
-    <!-- Project Gesture Navigation Start -->
+    <!-- Blog Gesture Navigation Start -->
 
   {% endif %}
 
-  {% if page.section-type == "project" %}
+  {% if page.section-type == "blog" %}
 
-    <!-- Swipe Instructions for Project Start -->
+    <!-- Swipe Instructions for Blog Start -->
 
     <script>
       $(document).ready(function(){
-        if(!localStorage.getItem('project-swipeshowed')){
+        if(!localStorage.getItem('blog-swipeshowed')){
           $("#swipe-instruction").fadeIn();
           $("#swipe-instruction .close-swipe-instruction").click(function(){
             $("#swipe-instruction").fadeOut();
           });
-          localStorage.setItem('project-swipeshowed', true);
+          localStorage.setItem('blog-swipeshowed', true);
         }
       });
     </script>
 
-    <!-- Swipe Instructions for Project End -->
+    <!-- Swipe Instructions for Blog End -->
 
   {% endif %}
 
