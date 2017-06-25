@@ -62,7 +62,7 @@ me-img: "../img/Phoebe.jpg"
 # in the end of the url just before '&type' is your user id.
 # Note: fbid is not the same as user id and user id only contains numbers
 
-me-img: "https://graph.facebook.com/xingrong.wu/picture?type=large&width=500&height=500"
+# me-img: "https://graph.facebook.com/xingrong.wu/picture?type=large&width=500&height=500"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -132,7 +132,7 @@ events:
     description: "MSCS at Northeastern U. JOB HUNTING!!!"
   - image: "/img/timeline/2017.JPG"
     date: "August 2016 - June 2017"
-    description: "Apple. First full-time job in the States. Fifth year in Texas."
+    description: "QA at Apple. Fifth year in Texas."
   - image: "/img/timeline/2016.JPG"
     date: "August 2012 - May 2016"
     description: "University of Texas at Austin. Started coding."
@@ -169,7 +169,7 @@ social:
   - title: "facebook"
     url: "https://facebook.com/xingrong.wu"
   - title: "linkedin"
-    url: "https://linkedin.com/xingrongwu"
+    url: "https://linkedin.com/in/xingrongwu"
   - title: "github"
     url: "https://github.com/phoebe0607"
   - title: "instagram"
