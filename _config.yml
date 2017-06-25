@@ -97,9 +97,9 @@ icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
-########
-# Blog #
-########
+###########
+# Project #
+###########
 
 enable-gesture-navigation: True
 
@@ -154,7 +154,7 @@ email: "wuxphoebe@gmail.com"
 # Author Blurb #
 ################
 
-# The author blurb goes underneath blog posts.
+# The author blurb goes underneath project posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
@@ -189,7 +189,7 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Project: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
@@ -199,7 +199,7 @@ exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
-paginate_path: "blog/page:num/"
+paginate_path: "project/page:num/"
 
 # Enable minification SASS
 
